@@ -1,72 +1,111 @@
-# Evaluating the Efficiency and Safety Impact of Dispensing Robots in Pharmacy Services
+# Enhancing Efficiency and Patient Safety through the Implementation of Dispensing Robots in Pharmacy Services
 
 ## Overview
 
-This project presents a data-driven evaluation of a dispensing robot implemented in a clinical pharmacy setting to improve operational efficiency and patient safety. Using manually collected data, the analysis examines key performance indicators (KPIs) before and after robot implementation to measure improvements in dispensing accuracy, workflow speed, and error reduction.
+This project presents a performance evaluation of dispensing robots implemented in a pharmacy service setting. Using manually collected data from two consecutive years (pre- and post-implementation), the analysis focuses on changes in key performance indicators (KPIs) to assess improvements in operational efficiency, medication safety, and patient experience.
 
-The goal is to provide a structured assessment of how robotic automation can enhance pharmaceutical service delivery and reduce risk in medication management.
+The primary aim is to apply statistical process control (SPC) and trend analysis methods to determine whether the introduction of dispensing automation leads to measurable improvements in pharmacy operations.
+
+---
+
+## Type of Analysis
+
+**Descriptive Analysis + Statistical Process Control (SPC)**
+
+- **Descriptive Statistics**: Used to calculate means, percentages, and performance deltas.
+- **Control Charts (SPC)**: Applied to monitor variation and detect improvement patterns across key indicators before and after intervention.
+- **Improvement Charts**: Used to visualize changes over time and assess process stability.
+
+---
 
 ## Objectives
 
-- Evaluate the impact of dispensing robots on pharmacy efficiency and accuracy
-- Compare pre- and post-implementation performance using manual data
-- Quantify improvements in medication error rates and processing time
-- Generate insights to support future adoption of automation technologies
+- Evaluate the impact of dispensing robots on efficiency, safety, and service quality  
+- Compare KPI trends before and after robot implementation  
+- Use SPC methods to assess process stability and improvement  
+- Inform technology adoption decisions through evidence-based analysis  
+
+---
 
 ## Data Source
 
-The dataset was manually collected over two time periods: before and after the deployment of dispensing robots. It includes metrics related to:
+Manually collected performance metrics from pharmacy operations for the years 2022 (pre-intervention) and 2023 (post-intervention). All data is de-identified.
 
-- Number of prescriptions dispensed
-- Dispensing errors
-- Average processing time per prescription
-- Manual interventions by pharmacy staff
-
-## Methodology
-
-- Descriptive statistics and trend comparisons
-- Calculation of performance deltas (pre vs. post)
-- Charts and visual summaries of KPIs
-- Manual validation of data entries
+---
 
 ## Key Performance Indicators (KPIs)
 
-| Metric                       | Description                                      |
-|-----------------------------|--------------------------------------------------|
-| Prescriptions Dispensed     | Total number of prescriptions processed          |
-| Dispensing Errors           | Count of medication errors during dispensing     |
-| Processing Time             | Average time taken per prescription (in minutes) |
-| Manual Interventions        | Instances where human override was required      |
+| KPI                                   | Measure Description                                       | Change Observed (2022 → 2023) |
+|--------------------------------------|------------------------------------------------------------|-------------------------------|
+| **Prescription Fill Rate**           | % prescriptions filled per month                           | ↑ 2.14%                        |
+| **Dispensing Error Rate**            | Errors per 1,000 items dispensed                            | ↓ 82.74%                       |
+| **Patient Wait Time**                | Average wait time per patient (minutes)                    | ↓ 27.06%                       |
+| **Pharmacist Productivity**          | Prescriptions dispensed per staff hour                     | ↑ 62.40%                       |
+| **Counseling Time**                  | Average patient interaction/counseling time (minutes)      | ↑ 233.33%                      |
+
+---
+
+## Methodology
+
+- **Data Entry & Cleaning**: Microsoft Excel  
+- **Statistical Analysis**: Python (`NumPy`, `Pandas`)  
+- **Visualization & SPC Charts**: Python (`Matplotlib`)  
+
+### Analysis Steps:
+1. Computed annual averages and percentage changes for each KPI  
+2. Constructed control charts to monitor process variability and stability  
+3. Compared pre- and post-implementation mean values and control limits  
+4. Interpreted trends using SPC principles
+
+---
 
 ## Key Findings
 
-- Significant reduction in dispensing errors following robot implementation
-- Noticeable improvement in processing time and operational throughput
-- Fewer manual interventions, indicating improved reliability
-- Overall gains in patient safety and pharmacy workflow efficiency
+- **Efficiency Gains**:  
+  - Prescription fill rates improved  
+  - Patient wait times decreased significantly  
+  - Pharmacist productivity increased by over 60%
+
+- **Safety Improvements**:  
+  - Dispensing error rate dropped by over 80%, indicating a major safety gain
+
+- **Patient Engagement**:  
+  - Counseling time more than tripled, reflecting enhanced communication and care quality
+
+These findings support the value of robotic automation in enhancing pharmacy service delivery and reducing variability in critical processes.
+
+---
 
 ## Tools & Technologies
 
-- Microsoft Excel (data entry, cleaning, and analysis)
-- Python (for advanced visualization or automation)
-- Performance tracking
-- Charts and tables for reporting KPIs
+- Microsoft Excel (data entry and preparation)  
+- Python  
+  - `Pandas` for preprocessing  
+  - `NumPy` for calculations  
+  - `Matplotlib` for visualization and SPC charts
+
+---
 
 ## Skills Demonstrated
 
 - Health technology performance evaluation  
-- Manual data collection and validation  
-- KPI benchmarking and reporting  
-- Quality improvement in pharmacy workflows  
-- Data storytelling for decision support
+- KPI development and benchmarking  
+- Control chart construction and interpretation  
+- Descriptive statistics and improvement tracking  
+- Process stability assessment using SPC
+
+---
 
 ## Author
 
 **Alanoud Alturki**  
-Health Data Analyst | Pharmacist  
+Health Data Analyst | Health Informatics Specialist | Pharmacist  
 MS in Health Informatics · MS in Health Data Analysis · PhD Student  
 [LinkedIn](https://www.linkedin.com/in/alanoud-alturki-5601b2b5)
 
+---
+
 ## License
 
-This project is intended for research purposes only. All data used has been manually recorded and de-identified. Please cite this project appropriately when used in publications or presentations.
+This project is intended for academic and research purposes only. All data is manually recorded and de-identified. Please cite this work appropriately if referenced or reproduced.
+
