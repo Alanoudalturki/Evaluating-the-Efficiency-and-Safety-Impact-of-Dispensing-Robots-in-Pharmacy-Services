@@ -50,8 +50,8 @@ The dataset was manually collected over two time periods: before and after the d
 ## Tools & Technologies
 
 - Microsoft Excel (data entry, cleaning, and analysis)
-- Python (optional: for advanced visualization or automation)
-- Manual performance tracking
+- Python (for advanced visualization or automation)
+- Performance tracking
 - Charts and tables for reporting KPIs
 
 ## Skills Demonstrated
