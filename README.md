@@ -20,7 +20,6 @@ The dataset was manually collected over two time periods: before and after the d
 - Number of prescriptions dispensed
 - Dispensing errors
 - Average processing time per prescription
-- System downtime
 - Manual interventions by pharmacy staff
 
 ## Methodology
@@ -37,7 +36,6 @@ The dataset was manually collected over two time periods: before and after the d
 | Prescriptions Dispensed     | Total number of prescriptions processed          |
 | Dispensing Errors           | Count of medication errors during dispensing     |
 | Processing Time             | Average time taken per prescription (in minutes) |
-| Robot Downtime              | Total system downtime recorded                   |
 | Manual Interventions        | Instances where human override was required      |
 
 ## Key Findings
