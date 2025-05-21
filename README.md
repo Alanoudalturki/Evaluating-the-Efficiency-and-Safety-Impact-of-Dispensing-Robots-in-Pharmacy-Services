@@ -1,0 +1,2 @@
+# Evaluating-the-Efficiency-and-Safety-Impact-of-Dispensing-Robots-in-Pharmacy-Services
+Manually collected and analyzed pre/post implementation data to assess the effectiveness of dispensing robots in pharmacy services. Focused on key performance indicators such as prescription throughput, processing time, error rates, and staff interventions to evaluate workflow improvements and patient safety outcomes.
